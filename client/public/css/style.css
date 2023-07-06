@@ -1,0 +1,175 @@
+/*Tp2
+ * Auteur: Jorge Eliecer Olivera Valle
+ * Matricule : 20118***
+ * Date: 06-11-2022
+ *
+*/
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+nav {
+  background: #c3e0e5;
+
+  margin: 11px 6px;
+}
+main {
+  margin: 9px;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 20px;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.dropdown {
+  width: 176px;
+}
+.dropdown-menu {
+  background-color: #4d87a6;
+  color: #97577a;
+  margin: 0px 15px;
+  border: none;
+}
+.selectDropdown {
+  margin: 0px 31px;
+  background-color: #87a5bb;
+}
+.btn-outline-success {
+  color: grey;
+  border-color: #84b9b9;
+}
+
+.ajouter {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-width: medium;
+  font-size: larger;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  background-color: #50a78a;
+  border-color: #3cac86;
+}
+
+.btn-primary {
+  background-color: rgb(210, 222, 229);
+  border-color: #bcd6d6;
+  color: black;
+  margin: 0% 5%;
+  padding: 10px 10%;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #88b5b5;
+  border-color: #88b5b5;
+}
+.boutonCard {
+  text-align: center;
+}
+.card-title {
+  margin: 0px;
+  margin-top: 10px;
+}
+.card-id {
+  display: none;
+}
+
+.txtBouton {
+  color: black;
+  padding: 10px 10%;
+}
+.pagination {
+  justify-content: center;
+}
+.dropdown-p {
+  color: white;
+  display: inline-block;
+  font-size: smaller;
+  margin: 0px 5px;
+  width: 35px;
+}
+.tri {
+  width: 180px;
+}
+
+.select-tri {
+  width: 110px;
+  margin: 0px;
+}
+
+.btn-form {
+  margin: 0px 5px;
+}
+
+.nav-item:hover {
+  background: #adddd0;
+}
+
+.nav-item {
+  color: rgb(197, 22, 22);
+}
+
+.image {
+  width: 150px;
+  height: 180px;
+}
+
+.cont {
+  display: flex;
+  border: 1px solid rgb(203, 203, 203);
+}
+
+.card-foot {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 50px;
+  height: 40px;
+}
+
+.card-foot a {
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
+}
+
+.card-foot a:hover {
+  border-top: 3px solid rgb(42, 104, 163);
+  border-bottom: 2px solid rgb(42, 104, 163);
+}
+
+@media only screen and (max-width: 500px) {
+  .image {
+    width: 232px;
+
+    height: 300px;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+  }
+
+  .card-body {
+    width: 50%;
+  }
+
+  .card-foot {
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  .card-foot a {
+    width: 116px;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+  }
+}
